@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "QA+WSZ0QxbA1D/GHmsUrInaU7vFZjxqcsTauzUjBPFzlUeSlpcq3SlZudp3gt5/+VDllmVMSREE21lOEPcZejQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Net Core\\MarquesaFramework\\MarquesaFramework.Server\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jembr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\jembr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jembr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\jembr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\jembr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\jembr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

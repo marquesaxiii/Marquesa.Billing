@@ -1,0 +1,14 @@
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\bin\Debug\net6.0\MarquesaFramework.Domain.deps.json
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\bin\Debug\net6.0\MarquesaFramework.Domain.dll
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\bin\Debug\net6.0\MarquesaFramework.Domain.pdb
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\MarquesaFramework.Domain.csproj.AssemblyReference.cache
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\MarquesaFramework.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\MarquesaFramework.Domain.AssemblyInfoInputs.cache
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\MarquesaFramework.Domain.AssemblyInfo.cs
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\MarquesaFramework.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\MarquesaFramework.Domain.dll
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\refint\MarquesaFramework.Domain.dll
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\MarquesaFramework.Domain.pdb
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\ref\MarquesaFramework.Domain.dll
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\bin\Debug\net6.0\MarquesaFramework.Domain.runtimeconfig.json
+C:\Projects\Net Core\MarquesaFramework\MarquesaFramework.Server\MarquesaFramework.Domain\obj\Debug\net6.0\MarquesaFramework.Domain.genruntimeconfig.cache
