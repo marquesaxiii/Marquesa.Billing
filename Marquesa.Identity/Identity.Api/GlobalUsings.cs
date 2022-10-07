@@ -1,6 +1,1 @@
-﻿namespace Identity.Api;
-
-public class GlobalUsings
-{
-    
-}
+﻿global using MediatR;

@@ -2,5 +2,6 @@
 
 public class QueryBaseHandler
 {
-    
+    public MarquesaBillingContext Context { get; set; }
+    public string Response { get; set; }
 }

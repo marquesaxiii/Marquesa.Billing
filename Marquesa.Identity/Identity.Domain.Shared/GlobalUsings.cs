@@ -1,6 +1,1 @@
-﻿namespace Identity.Domain.Shared;
-
-public class GlobalUsings
-{
-    
-}
+﻿global using System.Net;

@@ -1,6 +1,6 @@
 ﻿namespace Billing.Domain.Shared.Contracts.Requests.Get;
 
-public class GetClientListRequest
+public class GetClientListRequest : QueryRequest
 {
     
 }

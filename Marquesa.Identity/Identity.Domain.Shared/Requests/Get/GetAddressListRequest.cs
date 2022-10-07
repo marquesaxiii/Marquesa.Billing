@@ -1,6 +1,6 @@
 ﻿namespace Identity.Domain.Shared.Requests.Get;
 
-public class GetAddressListRequest
+public class GetAddressListRequest : QueryableRequest
 {
     
 }

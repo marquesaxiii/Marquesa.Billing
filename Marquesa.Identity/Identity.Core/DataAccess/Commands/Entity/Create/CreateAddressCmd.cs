@@ -1,6 +1,8 @@
-﻿namespace Identity.Core.DataAccess.Commands.Entity.Create;
+﻿using Identity.Domain.Shared.Requests.Create;
 
-public class CreateAddressCmd
+namespace Identity.Core.DataAccess.Commands.Entity.Create;
+
+public class CreateAddressCmd : CreateAddressRequest, IRequest<CmdResponse<CreateAddressCmd>>
 {
     
 }

@@ -2,5 +2,5 @@
 
 public class RequestBase
 {
-    
+    public Guid? Guid { get; set; }
 }

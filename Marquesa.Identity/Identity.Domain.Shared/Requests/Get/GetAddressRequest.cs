@@ -1,6 +1,6 @@
 ﻿namespace Identity.Domain.Shared.Requests.Get;
 
-public class GetAddressRequest
+public class GetAddressRequest : RequestBase
 {
     
 }

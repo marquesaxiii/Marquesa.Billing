@@ -1,6 +1,6 @@
-﻿namespace Billing.Domain.Shared.Contracts.Requests.Create;
+﻿namespace Billing.Domain.Shared.Contracts.Requests.Delete;
 
-public class DeleteBillingInformationRequest
+public class DeleteBillingInformationRequest : RequestBase
 {
     
 }

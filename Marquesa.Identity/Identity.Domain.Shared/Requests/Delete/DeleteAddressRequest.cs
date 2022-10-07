@@ -1,6 +1,6 @@
 ﻿namespace Identity.Domain.Shared.Requests.Delete;
 
-public class DeleteAddressRequest
+public class DeleteAddressRequest : RequestBase
 {
     
 }

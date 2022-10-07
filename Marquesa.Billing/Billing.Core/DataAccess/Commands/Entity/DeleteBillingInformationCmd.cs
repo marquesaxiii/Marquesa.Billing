@@ -1,6 +1,6 @@
 ﻿namespace Billing.Core.DataAccess.Commands.Entity;
 
-public class DeleteBillingInformationCmd
+public class DeleteBillingInformationCmd : DeleteBillingInformationRequest, IRequest<CmdResponse<DeleteBillingInformationCmd>>
 {
     
 }

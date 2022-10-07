@@ -1,6 +1,6 @@
 ﻿namespace Billing.Core.DataAccess.Commands.Entity;
 
-public class UpdateBillingInformationCmd
+public class UpdateBillingInformationCmd : UpdateBillingInformationRequest, IRequest<CmdResponse<UpdateBillingInformationCmd>>
 {
     
 }
