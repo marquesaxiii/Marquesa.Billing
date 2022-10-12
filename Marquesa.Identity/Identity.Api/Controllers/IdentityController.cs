@@ -42,8 +42,8 @@ public class IdentityController : Controller
    [HttpPost("Create/Address")]
    public async Task<IActionResult> CreateAddress([FromBody] CreateAddressRequest request)
    {
-      var result = await _mediator.Send(request);
-      return Ok(result);
+      var response = await _mediator.Send(request);
+      return Ok(response);
    }
    
    

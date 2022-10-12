@@ -26,4 +26,9 @@ public class ClientRepository : IClientRepository
     {
         throw new NotImplementedException();
     }
+
+    public async Task<ClientInfo> UpdateClient(ClientInfo client)
+    {
+        throw new NotImplementedException();
+    }
 }

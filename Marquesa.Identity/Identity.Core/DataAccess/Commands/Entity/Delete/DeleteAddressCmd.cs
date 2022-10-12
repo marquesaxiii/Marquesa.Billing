@@ -1,6 +1,8 @@
-﻿namespace Identity.Core.DataAccess.Commands.Entity.Delete;
+﻿using Identity.Domain.Shared.Requests.Delete;
 
-public class DeleteAddressCmd
+namespace Identity.Core.DataAccess.Commands.Entity.Delete;
+
+public class DeleteAddressCmd : DeleteAddressRequest, IRequest<CmdResponse<DeleteAddressCmd>>
 {
     
 }

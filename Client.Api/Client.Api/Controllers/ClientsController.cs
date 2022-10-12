@@ -37,4 +37,13 @@ public class ClientsController : ControllerBase
         await _context.SaveChangesAsync();
         return Ok(clientInfo);
     }
+    
+    //UPDATE
+    [HttpPut]
+    public async Task<IActionResult> UpdateClient([FromBody] ClientInfo clientInfo)
+    {
+        _context.ClientInfos.Update(clientInfo);
+        await _context.SaveChangesAsync();
+        return Ok(clientInfo);
+    }
 }

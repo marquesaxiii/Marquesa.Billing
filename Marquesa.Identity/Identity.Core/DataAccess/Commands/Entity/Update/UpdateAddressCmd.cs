@@ -1,6 +1,8 @@
-﻿namespace Identity.Core.DataAccess.Commands.Entity.Update;
+﻿using Identity.Domain.Shared.Requests.Update;
 
-public class UpdateAddressCmd
+namespace Identity.Core.DataAccess.Commands.Entity.Update;
+
+public class UpdateAddressCmd : UpdateAddressRequest, IRequest<CmdResponse<UpdateAddressCmd>>
 {
     
 }

@@ -1,9 +1,4 @@
-﻿using System.Net;
-using Identity.Core.DataAccess.Commands.Entity.Create;
-using Identity.Domain.DataTransferObjects;
-using Mapster;
-
-namespace Identity.Core.DataAccess.Commands.Handler.Create;
+﻿namespace Identity.Core.DataAccess.Commands.Handler.Create;
 
 public class CreateAddressHandler : CommandBaseHandler, IRequestHandler<CreateAddressCmd, CmdResponse<CreateAddressCmd>>
 {
