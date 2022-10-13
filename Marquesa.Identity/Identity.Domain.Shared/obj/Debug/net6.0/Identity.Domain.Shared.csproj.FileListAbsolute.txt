@@ -1,0 +1,15 @@
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\bin\Debug\net6.0\Identity.Domain.Shared.deps.json
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\bin\Debug\net6.0\Identity.Domain.Shared.dll
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\bin\Debug\net6.0\Identity.Domain.Shared.pdb
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\bin\Debug\net6.0\Identity.Domain.dll
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\bin\Debug\net6.0\Identity.Domain.pdb
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\Identity.Domain.Shared.csproj.AssemblyReference.cache
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\Identity.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\Identity.Domain.Shared.AssemblyInfoInputs.cache
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\Identity.Domain.Shared.AssemblyInfo.cs
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\Identity.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\Identity.Domain.Shared.csproj.CopyComplete
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\Identity.Domain.Shared.dll
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\refint\Identity.Domain.Shared.dll
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\Identity.Domain.Shared.pdb
+C:\Projects\Net Core\MarquesaProjects\Marquesa.Identity\Identity.Domain.Shared\obj\Debug\net6.0\ref\Identity.Domain.Shared.dll

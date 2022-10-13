@@ -28,6 +28,7 @@ public class IdentityController : ControllerBase
       return await _mediator.Send(new GetAddressQuery());
    }
    
+   
    // GET LIST
    [HttpGet("List/Address")]
    public async Task<QueryResponse<List<AddressResponse>>> ListAddress()
