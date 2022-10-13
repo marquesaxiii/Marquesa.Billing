@@ -4,10 +4,6 @@ using Identity.Core.DataAccess.Commands.Entity.Update;
 using Identity.Core.DataAccess.Queries.Entity.Get;
 using Identity.Core.DataAccess.Queries.Entity.GetList;
 using Identity.Domain.Shared.BusinessObjects;
-using Identity.Domain.Shared.Requests.Create;
-using Identity.Domain.Shared.Requests.Delete;
-using Identity.Domain.Shared.Requests.Get;
-using Identity.Domain.Shared.Requests.Update;
 using Identity.Domain.Shared.Responses;
 using Microsoft.AspNetCore.Mvc;
 
@@ -64,4 +60,6 @@ public class IdentityController : ControllerBase
       request.Guid = guid;
       return Ok(await _mediator.Send(request));
    }
+   
+   
 }
