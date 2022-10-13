@@ -2,5 +2,6 @@
 
 public class QueryBaseHandler
 {
+    public MarquesaSystemContext _context;
     public IDataLayer _dataLayer;
 }

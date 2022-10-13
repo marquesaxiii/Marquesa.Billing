@@ -2,8 +2,9 @@
 
 public class CreateAddressHandler : CommandBaseHandler, IRequestHandler<CreateAddressCmd, CmdResponse<CreateAddressCmd>>
 {
-    public CreateAddressHandler(IDataLayer dataLayer)
+    public CreateAddressHandler(MarquesaSystemContext context, IDataLayer dataLayer)
     {
+        _context = context;
         _dataLayer = dataLayer;
     }
     public async Task<CmdResponse<CreateAddressCmd>> Handle(CreateAddressCmd request, CancellationToken cancellationToken)
@@ -11,8 +12,8 @@ public class CreateAddressHandler : CommandBaseHandler, IRequestHandler<CreateAd
         var address = request.Adapt<Address>();
         address.Guid = request.Guid is null ? $"{Guid.NewGuid()}" : $"{request.Guid}";
 
-        await _dataLayer.MarquesaSystemContext.Addresses.AddAsync(address, CancellationToken.None);
-        await _dataLayer.MarquesaSystemContext.SaveChangesAsync(CancellationToken.None);
+        await _context.Addresses.AddAsync(address, CancellationToken.None);
+        await _context.SaveChangesAsync(CancellationToken.None);
 
         request.Guid = Guid.Parse(address.Guid);
         return new()

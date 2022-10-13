@@ -5,14 +5,15 @@ namespace Identity.Core.DataAccess.Queries.Handler.Get;
 
 public class GetAddressHandler : QueryBaseHandler, IRequestHandler<GetAddressQuery, QueryResponse<AddressResponse>>
 {
-    public GetAddressHandler(IDataLayer dataLayer)
+    public GetAddressHandler(MarquesaSystemContext context,IDataLayer dataLayer)
     {
+        _context = context;
         _dataLayer = dataLayer;
     }
 
     public async Task<QueryResponse<AddressResponse>> Handle(GetAddressQuery request, CancellationToken cancellationToken)
     {
-        var address = await _dataLayer.MarquesaSystemContext.Addresses
+        var address = await _context.Addresses
             .AsNoTracking()
             .FirstOrDefaultAsync(x => x.Guid == $"{request.Guid}", CancellationToken.None);
 

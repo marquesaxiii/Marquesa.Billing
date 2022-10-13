@@ -1,6 +1,4 @@
-﻿using Identity.Domain.DataTransferObjects;
-
-namespace Identity.Core.Interface;
+﻿namespace Identity.Core.Interface;
 
 public interface IDataLayer
 {

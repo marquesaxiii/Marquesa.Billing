@@ -5,14 +5,15 @@ namespace Identity.Core.DataAccess.Queries.Handler.GetList;
 
 public class GetAddressListHandler : QueryBaseHandler, IRequestHandler<GetAddressListQuery, QueryResponse<List<AddressResponse>>>
 {
-    public GetAddressListHandler(IDataLayer dataLayer)
+    public GetAddressListHandler(MarquesaSystemContext context,IDataLayer dataLayer)
     {
+        _context = context;
         _dataLayer = dataLayer;
     }
 
     public async Task<QueryResponse<List<AddressResponse>>> Handle(GetAddressListQuery request, CancellationToken cancellationToken)
     {
-        var address = await _dataLayer.MarquesaSystemContext.Addresses
+        var address = await _context.Addresses
             .OrderBy(x => x.CreatedAt)
             .Take(request.PageSize)
             .AsSplitQuery()

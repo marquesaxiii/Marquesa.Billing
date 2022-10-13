@@ -8,5 +8,7 @@ global using MediatR;
 global using Microsoft.EntityFrameworkCore;
 global using System.Net;
 global using Identity.Core.DataAccess.Commands.Entity.Create;
+global using Identity.Core.DataAccess.Commands.Entity.Delete;
+global using Identity.Core.DataAccess.Commands.Entity.Update;
 global using Identity.Domain.DataTransferObjects;
 global using Mapster;
